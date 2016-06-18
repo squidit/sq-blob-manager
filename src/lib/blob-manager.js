@@ -3,3 +3,11 @@
 // 
 
 var exports = module.exports;
+
+/**
+ * Client manager exports.
+ * @ignore
+ */
+var ClientManager = require('./managers/clientManager');
+
+exports.ClientManager = ClientManager;
