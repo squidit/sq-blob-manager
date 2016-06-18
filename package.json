@@ -27,6 +27,7 @@
     "eslint": "^2.13.0"
   },
   "dependencies": {
+    "azure-storage": "^1.0.1",
     "dotenv": "^2.0.0"
   }
 }
