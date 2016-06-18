@@ -9,7 +9,7 @@ Clonar o projeto
 ## Apontar
 `npm install` na pasta clonada.
 
-`tsd install` na pasta clonada.
+`typings install` na pasta clonada.
 
 ## Já
 
