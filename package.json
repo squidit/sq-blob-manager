@@ -1,0 +1,32 @@
+{
+  "name": "blob-manager",
+  "version": "1.0.0",
+  "engines": {
+    "node": "6.0.0"
+  },
+  "description": "Funções utilizadas no gerenciamento de blob de media.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:watch": "nodemon --exec npm start",
+    "test": "export NODE_ENV=test; mocha -r './test/carrega-dotenv'",
+    "test:watch": "export NODE_ENV=test; mocha -r './test/carrega-dotenv' --watch",
+    "lint": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/squidit/blob-manager.git"
+  },
+  "author": "Squid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/squidit/blob-manager/issues"
+  },
+  "homepage": "https://gitlab.com/squidit/blob-manager#README",
+  "devDependencies": {
+    "eslint": "^2.13.0"
+  },
+  "dependencies": {
+    "dotenv": "^2.0.0"
+  }
+}
