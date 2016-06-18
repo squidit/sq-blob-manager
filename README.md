@@ -9,6 +9,8 @@ Clonar o projeto
 ## Apontar
 `npm install` na pasta clonada.
 
+`tsd install` na pasta clonada.
+
 ## Já
 
 `npm start` para iniciar.

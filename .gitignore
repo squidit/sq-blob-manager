@@ -41,3 +41,6 @@ node_modules
 
 # MacOs Files
 .DS_Store
+
+# VS Code Files
+typings
