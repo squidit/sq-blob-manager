@@ -1,0 +1,1 @@
+console.log('Iniciado com sucesso!');
