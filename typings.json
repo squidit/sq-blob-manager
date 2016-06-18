@@ -1,4 +1,5 @@
 {
+  "name": "blob-manager",
   "dependencies": {
     "azure-storage": "registry:npm/azure-storage#0.10.0+20160526142523"
   }
