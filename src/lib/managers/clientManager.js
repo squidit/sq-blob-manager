@@ -81,13 +81,18 @@ ClientManager.prototype.getRepositories = function (optionsOrCallback, callback)
     .where(condition).and('PartitionKey eq ?', CLIENT_ACCOUNTS_DATA_PARTITION);
 
   this.tableSvc.queryEntities(CLIENT_ACCOUNTS_TABLE, query, null, (error, result, response) => {
-    if (error) {
-      console.dir(response); // TODO:MORAIS - Remover após implementação do módulo DEBUG
-      callback(error);
+    let err = {};
+
+    if (!response.isSuccessful) {
+      err = {
+        statusCode: response.statusCode,
+        message: 'Não foi possível recuperar o registro do cliente.',
+        err: error,
+      };
     }
 
     // MORAIS - Implementar a recuperação dos containers.
-    callback(error, result);
+    callback(err, result);
   });
 };
 

@@ -1,13 +1,13 @@
-// 
+//
 // Copyright (c) Squid. Todos os direitos reservados.
-// 
+//
 
-var exports = module.exports;
+const BlobManager = module.exports;
 
 /**
  * Client manager exports.
  * @ignore
  */
-var ClientManager = require('./managers/clientManager');
+const ClientManager = require('./managers/clientManager');
 
-exports.ClientManager = ClientManager;
+BlobManager.ClientManager = ClientManager;
