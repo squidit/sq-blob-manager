@@ -22,3 +22,7 @@ Clonar o projeto
 `npm run test:watch` para rodar os testes toda vez que alterar algum arquivo.
 
 `npm run lint` para rodar apenas o lint.
+
+## Ferramentas auxiliares
+
+[Azure Storage Explorer](http://storageexplorer.com/)
