@@ -4,7 +4,7 @@
 
 // Registro de dependências.
 const azure = require('azure-storage');
-const { CLIENT_ACCOUNTS_TABLE, CLIENT_ACCOUNTS_DATA_PARTITION } = require('../../constantes');
+const { CLIENT_ACCOUNTS_TABLE, CLIENT_ACCOUNTS_DATA_PARTITION } = require('../const');
 
 // Registro de modelos
 
