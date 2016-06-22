@@ -6,7 +6,7 @@ const BlobManager = require('./lib/blob-manager');
 const clientManager =
   new BlobManager.ClientManager('c17992e8-44b2-41cb-b075-b9f449911e6d');
 
-clientManager.getRepositories(null, (error, result) => {
+clientManager.getRepositoryInfo((error, result) => {
   const data = {
     err: error,
     res: result,

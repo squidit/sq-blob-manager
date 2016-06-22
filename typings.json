@@ -5,6 +5,8 @@
     "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#1315d46f8066eec8c197914da88e98629ebc2254"
   },
   "dependencies": {
-    "azure-storage": "registry:npm/azure-storage#0.10.0+20160526142523"
+    "azure-storage": "registry:npm/azure-storage#0.10.0+20160526142523",
+    "extend": "registry:npm/extend#1.0.0+20160418015440",
+    "lodash": "registry:npm/lodash#4.0.0+20160416211519"
   }
 }
