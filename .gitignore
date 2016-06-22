@@ -44,3 +44,4 @@ node_modules
 
 # VS Code Files
 typings
+!src/typings
