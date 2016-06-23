@@ -1,3 +1,5 @@
 # VS Code Files
-typings
 .vscode
+examples
+node_modules
+typings

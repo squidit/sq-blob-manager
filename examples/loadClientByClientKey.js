@@ -1,4 +1,5 @@
-const BlobManager = require('./lib/blob-manager');
+require('dotenv').config({ silent: true });
+const BlobManager = require('../lib/blob-manager');
 
 /**
  *  Implementação de recuperação MOCK
