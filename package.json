@@ -6,6 +6,7 @@
   },
   "description": "Funções utilizadas no gerenciamento de blob de media.",
   "main": "index.js",
+  "typings": "./src/typings/blob-manager.d.ts",
   "scripts": {
     "start": "node index.js",
     "start:watch": "nodemon --exec npm start",

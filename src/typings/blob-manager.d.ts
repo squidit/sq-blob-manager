@@ -2,7 +2,7 @@
 // Copyright (c) Squid. Todos os direitos reservados.
 //
 
-declare module "blob-manager" {
+declare module "blob-managerr" {
 
   module blobmanager {
 
