@@ -1,0 +1,13 @@
+---
+  extends: "airbnb-base"
+  env:
+    mocha: true
+  rules:
+    "space-before-function-paren": 0
+    "func-names": 0
+    "no-underscore-dangle": 0
+  settings:
+    import/resolver:
+      node:
+        paths:
+          - ./
