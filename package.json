@@ -1,6 +1,6 @@
 {
   "name": "blob-manager",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Squid",
   "license": "ISC",
   "description": "Funções utilizadas no gerenciamento de blob de media.",
