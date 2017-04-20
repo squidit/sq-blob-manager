@@ -1,5 +1,3 @@
-[![build status](https://gitlab.com/squidit/blob-manager/badges/master/build.svg)](https://gitlab.com/squidit/blob-manager/commits/master)
-
 # blob-manager
 > Funções utilizadas no gerenciamento de blob de media.
 
